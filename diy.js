@@ -88,7 +88,7 @@
                         $this[0].style['-webkit-transform'] = 'translate('+ x +'px,'+ y +'px)  rotate('+ degNum +'deg) scale('+scaleNum+')';
                         
                         //中间数 等于 最大值减去最小值 /2 
-                        var centerNum = ( opt.maxSize - opt.minSize ) / 2 / scaleNum + ( scaleNum / 10 )
+                        var centerNum = ( opt.maxSize - opt.minSize ) / 3 / scaleNum + ( scaleNum / 10 );
                         //让操作按钮不管元素放大缩小都保持差不多大小
                         closeEl.css({'-webkit-transform':'scale('+centerNum+')'});
                         flipOverEl.css({'-webkit-transform':'scale('+centerNum+')'});
